@@ -23,7 +23,7 @@ def say_hello():
     return f"Hello, World! Public IP: {public_ip}, Private IP: {private_ip}"
 
 @app.route('/info')
-def instance_info():
+def get_instance_info():
     """Returns AWS EC2 instance metadata"""
     instance_id = get_instance_metadata("instance-id")
     public_ip = get_instance_metadata("public-ipv4")

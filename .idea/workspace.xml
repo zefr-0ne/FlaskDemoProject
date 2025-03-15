@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14a6f1d4-5ab3-4214-8e2b-932f241c87bc" name="Changes" comment="Change az to availability_zone" />
+    <list default="true" id="14a6f1d4-5ab3-4214-8e2b-932f241c87bc" name="Changes" comment="Change port 80 to 8080" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +68,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.FlaskDemo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "SecondEndpoint",
     "node.js.detected.package.eslint": "true",
@@ -94,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742027786961</updated>
-      <workItem from="1742027787962" duration="4494000" />
+      <workItem from="1742027787962" duration="4813000" />
     </task>
     <task id="LOCAL-00001" summary="Add base code">
       <option name="closed" value="true" />
@@ -120,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742032253905</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Change port 80 to 8080">
+      <option name="closed" value="true" />
+      <created>1742032392295</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742032392295</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +139,7 @@
     <MESSAGE value="Add base code" />
     <MESSAGE value="Fix function name" />
     <MESSAGE value="Change az to availability_zone" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change az to availability_zone" />
+    <MESSAGE value="Change port 80 to 8080" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change port 80 to 8080" />
   </component>
 </project>
