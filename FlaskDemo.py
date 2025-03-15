@@ -13,7 +13,7 @@ def get_instance_metadata(path):
         return "Unavailable"
 
 @app.route('/')
-def hello():
+def say_hello():
     # Get Public IP from AWS metadata
     public_ip = get_instance_metadata("public-ipv4")
 
