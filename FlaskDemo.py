@@ -28,13 +28,13 @@ def instance_info():
     instance_id = get_instance_metadata("instance-id")
     public_ip = get_instance_metadata("public-ipv4")
     private_ip = socket.gethostbyname(socket.gethostname())
-    az = get_instance_metadata("placement/availability-zone")
+    availability_zone = get_instance_metadata("placement/availability-zone")
 
     return {
         "Instance ID": instance_id,
         "Public IP": public_ip,
         "Private IP": private_ip,
-        "Availability Zone": az
+        "Availability Zone": availability_zone
     }
 
 if __name__ == '__main__':
